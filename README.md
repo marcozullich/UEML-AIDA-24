@@ -1,18 +1,10 @@
-# UncertaintyML-course-ESSAI-labs
-Lab material/code for the Uncertainty Quantification in Machine Learning Course @ ESSAI 2023, using Keras-Uncertainty and Pyro.
+# AIDA course on Uncertainty Estimation in Machine Learning, 2024
+Lab material/code for the AIDA Uncertainty Estimation in Machine Learning Course @ ESSAI 2023.
 
 ### Local setup
 
-_These notebooks were designed and tested on Google Colab.
-We **strongly** advise to use Colab to run them during the lectures as it will greatly speed up the setup process, since (almost) all of the required libraries are already pre-installed there.
-We will not be available during the lectures for help concerning local setup._
+These notebooks were designed and tested on Google Colab.
+We advise to use Colab to run them during the lectures as it will greatly speed up the setup process, since (almost) all of the required libraries are already pre-installed there.
 
-If you want to run the code locally, you should install the following libraries:
-* numpy
-* scipy
-* matplotlib
-* tensorflow
-* keras
-* [keras_uncertainty](https://github.com/mvaldenegro/keras-uncertainty/)
-* scikit-learn
-* pandas
+If you want to run the code locally, create a Python environment (we used Python 3.10 locally) and install the requirements using pip:
+`pip install -r requirements.txt`
