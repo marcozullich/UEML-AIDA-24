@@ -1,0 +1,3 @@
+keras-uncertainty @ git+https://github.com/mvaldenegro/keras-uncertainty@42f50a3
+tensorflow
+matplotlib
