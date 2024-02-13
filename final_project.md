@@ -1,10 +1,14 @@
 # Instructions for the final project
 
-In the final project, you are tasked with building a few Deep (Bayesian) Neural Networks on a problem of your choice (classification or regression), then to evaluate the reliability and the out-of-distribution detection capabilities of such models.
+In the final project, you are tasked with building a few Deep (Bayesian) Neural Networks on a problem of your choice (classification or regression), then to evaluate the reliability and the out-of-distribution (OOD) detection capabilities of such models.
+
+The deadline is set to **Sunday, February 25th 2024 23:59 Anywhere-on-Earth**.
+
+Please deliver the project as a Jupyter Notebook, with/without usage of helper Python scripts within the same folder.
 
 ## Choice of dataset
 
-The dataset should possibly be not a toy dataset (e.g., no MNIST, sinusoid approximation, etc.). 
+The dataset should possibly not be a toy dataset (e.g., no MNIST, sinusoid approximation, etc.). 
 If you have doubts on the selection of the dataset, please contact us.
 In making the choice, consider also that, for the OOD detection part, you should also find an OOD dataset usable for the task (refer to the slides for lecture 4 for details on this).
 
@@ -34,3 +38,4 @@ For evaluating the OOD detection performance, **compute the predictions on both 
 Comment on the result.
 Is the result satisfactory?
 Does the accuracy/performance of the model change considering only ID data, while withholding the predictions for data below the threshold you found?
+
