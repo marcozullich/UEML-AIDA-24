@@ -8,3 +8,11 @@ We advise to use Colab to run them during the lectures as it will greatly speed 
 
 If you want to run the code locally, create a Python environment (we used Python 3.10 locally) and install the requirements using pip:
 `pip install -r requirements.txt`
+
+### Final project
+
+The instructions for the final project are present on [this file](./final_project.md).
+
+### Final lecture
+
+The code for the final lecture can be found on this repo: https://github.com/marcozullich/PyTorch_Gaussian_YOLOv3.
